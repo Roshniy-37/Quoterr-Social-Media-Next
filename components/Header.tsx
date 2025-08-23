@@ -38,12 +38,12 @@ function Header() {
 
   }
   return (
-    <div className='w-full z-40 flex bg-white justify-between h-16 items-center border-b px-3 shadow-md'>
-      <h1>Quoterr</h1>
+    <div className='w-full z-40 flex bg-white justify-between h-20 items-center border-b px-3 shadow-md'>
+      <h1 className='text-3xl font-bold px-5'>Quoterr</h1>
       <div className='flex justify-center items-center gap-4'>
       <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" size='sm'>Create</Button>
+        <Button variant="outline" size='lg'>Create</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
